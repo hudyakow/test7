@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SERGEY</title>
+		<link href = "style.css" rel = "stylesheet">
+		<script src="https://kit.fontawesome.com/3219cc2f1b.js" crossorigin="anonymous"></script>
+		<script src = "script.js"></script>
+		<link rel="icon" href="image/icon2.png" type="image/x-icon">
+		<script src="jquery.js"></script>
+		<script src="./cloud.js"></script>
+		<script
+           src="https://code.jquery.com/jquery-3.6.0.js"
+           integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+		</script>
+        <style>
+            body {
+                background: url("image/bg3.png") no-repeat center center fixed;
+	            background-size: cover;
+            }
+        </style>
+        <script type = "text/javascript">
+            $(document).mousemove(function(e) {
+                $('.pointer').css({left:e.pageX, top:e.pageY});
+            })
+        </script>
+    </head>
+<body>
+
+    <div class = "pointer"></div>
+    <div class = "line">
+		<audio id="player" src="angels.mp3"></audio>
+		<a class = "bitlo" onclick="document.getElementById('player').play()"><i class="fa-brands fa-soundcloud" style = "font-size: 10px;"></i> Sound</a>
+		<!---<a href = "#" class = "main-menu-button"><i class="fa-solid fa-bars"></i></a>--->
+		<nav>
+			<ul>
+				<li>
+					<a href = "index2.html" class = "menu-button"><i class="fas fa-circle" style = "font-size: 50px;"></i></a>
+					<a href = "index4.html" class = "menu-button"><i class="fas fa-circle" style = "font-size: 50px;"></i></a>
+					<a href = "index5.html" class = "menu-button"><i class="fas fa-circle" style = "font-size: 50px;"></i></a>
+					<!--<a href = "#" class = "menu-button">About</a>
+					<a href = "#" class = "menu-button">Achievment</a>
+					<a href = "#" class = "menu-button">Blog</a>-->
+				</li>
+			</ul>
+		</nav>
+	</div>
+      <style>
+        *{
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        body{
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          background-color: #1d1d1d;
+          overflow: hidden;
+        }
+        canvas{
+          background-color: #000;
+        }
+      </style>
+    <div class = "sphere-block">
+    <div class = "me">
+        Me, Myself and I
+    </div>
+    <div class = "me-paragraph">
+        Since Adobe Flash was a complete innovation, alongside with CSS 1.0 and HTML 4.01<br>
+        as standards of the current web I've been passionate about web.<br>
+
+        For over a decade | had many opportunities to work in a vast spectrum of web<br>
+        technologies what let me gather a significant amount of various experience. Working for<br>
+        companies and individuals around the globe | met and leamt from amazing and ambitious<br>
+        people.
+
+        I currently work remotely with a selected freelance client base being open for new<br>
+        opportunities.<br>
+    </div>
+        <span class="Sphere"></span>
+
+    <!-- Including the TagCloud.js script CDN in the document    -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <script>
+        const Texts = [
+            'HTML', 'CSS', 'JAVASCRIPT',
+            'SWIFT', 'MONGOOSE', 'REACT',
+            'PYTHON', 'SASS',
+            'DJANGO', 'NODEJS', 'MONGODB',
+            'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'
+        ];
+
+        var tagCloud = TagCloud('.Sphere', Texts, {
+
+            // Sphere radius in px
+            radius: 400,
+
+            // animation speed
+            // slow, normal, fast
+            maxSpeed: 'normal',
+            initSpeed: 'fast',
+
+            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+            direction: 135,
+
+            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+            keep: true
+
+        });
+
+        // Giving color to each text in sphere
+        var color = '#08fdd8';
+        document.querySelector('.Sphere').style.color = color;
+    </script>
+    </div>
+</body>
+</html>

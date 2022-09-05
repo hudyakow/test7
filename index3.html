@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SERGEY</title>
+		<link href = "style.css" rel = "stylesheet">
+		<script src="https://kit.fontawesome.com/3219cc2f1b.js" crossorigin="anonymous"></script>
+		<script src = "script.js"></script>
+		<link rel="icon" href="image/icon2.png" type="image/x-icon">
+		<script src="jquery.js"></script>
+		<script src="./cloud.js"></script>
+		<script
+           src="https://code.jquery.com/jquery-3.6.0.js"
+           integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+		</script>
+	</head>
+<body onLoad="init();">   
+	<div class = "back">
+        <div class = "pointer"></div>
+        <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
+        <script type = "text/javascript">
+            $(document).mousemove(function(e) {
+                $('.pointer').css({left:e.pageX, top:e.pageY});
+            })
+        </script>
+	<div class = "line">
+		<audio id="player" src="angels.mp3"></audio>
+		<a class = "bitlo" onclick="document.getElementById('player').play()"><i class="fa-brands fa-soundcloud" style = "font-size: 10px;"></i> Sound</a>
+		<!---<a href = "#" class = "main-menu-button"><i class="fa-solid fa-bars"></i></a>--->
+		<nav>
+			<ul>
+				<li>
+					<a href = "index2.html" class = "menu-button"><i class="fas fa-circle" style = "font-size: 50px;"></i></a>
+					<a href = "index4.html" class = "menu-button"><i class="fas fa-circle" style = "font-size: 50px;"></i></a>
+					<a href = "index5.html" class = "menu-button"><i class="fas fa-circle" style = "font-size: 50px;"></i></a>
+					<!--<a href = "#" class = "menu-button">About</a>
+					<a href = "#" class = "menu-button">Achievment</a>
+					<a href = "#" class = "menu-button">Blog</a>-->
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class = "text">
+		<h3 class = "text-intro1">W E  A R E  I N F I N I T Y.</h3>
+		<h1 class = "text-intro2">We Craft Stunning <br> Digital Experiences</h1>
+		<!---<h1 class = "text-intro2">We</h1> <h1>Craft</h1> <h1>Stunning</h1> <br> <h1>Digital</h1> Experiences</h1>--->
+		<a href = "https://docs.google.com/forms/d/1TY3HA-lqAvEzDUPEGAkySrzqL_wwnuomMcGdP0q-OEk/edit" class = 'button'>
+			Learn more
+		</a>
+	</div>
+	<div class = "scroll-down">Scroll down<i class="fa-solid fa-arrow-down" style = "font-size: 15px;"></i></div>
+    </div>
+  
+</body>
+</html>
