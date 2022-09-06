@@ -669,6 +669,12 @@ input {
 	.map {
 		display: none;
 	}
+	.subject {
+		width: 850px;
+	}
+	.message {
+		width: 850px;
+	}
 	
 }
 
