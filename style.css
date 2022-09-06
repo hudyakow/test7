@@ -198,7 +198,7 @@ li {
 }
 .port {
 	font-size: 60px;
-	margin: 30px 0 0 150px;
+	margin: 30px 0 0 50px;
 	color: #fd2155;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 200;
@@ -207,7 +207,7 @@ li {
 .about-me {
 	color: #fff;
 	font-size: 25px;
-	margin: 0 0 0 150px;
+	margin: 0 0 0 30px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .see-more {
@@ -233,10 +233,10 @@ li {
 }
 .row, .row1{
 	display: flex;
-	margin: 0 0 0 150px;
+	margin: 0 0 0 30px;
 }
 .row {
-	margin: 20px 0 0 150px;
+	margin: 20px 0 0 30px;
 }
 .img-portfolio-1, .img-portfolio-2, .img-portfolio-3, .img-portfolio-4, .img-portfolio-5, .img-portfolio-6, .img-portfolio-7, .img-portfolio-8, .img-portfolio-9, .img-portfolio-10 {
 	flex-grow: 5;
