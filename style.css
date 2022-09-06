@@ -650,11 +650,9 @@ input {
 	}
 	.blog-grow-1 {
 	        margin: 0 0 0 20px;
-		display: inline-block;
 	}
 	.blog1, .blog2, .blog3 {
 		width: 400px;
-		display: inline-block;
 	}
 	
 }
