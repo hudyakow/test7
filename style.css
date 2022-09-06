@@ -667,7 +667,7 @@ input {
 		height: 250px;
 	}
 	.map {
-		display: none;
+		margin-top: 30vh;
 	}
 	.subject {
 		width: 800px;
