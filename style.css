@@ -666,6 +666,9 @@ input {
 	.blog3 {
 		height: 250px;
 	}
+	.map {
+		display: none;
+	}
 	
 }
 
