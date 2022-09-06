@@ -647,6 +647,9 @@ input {
 	.back-5 {
 		height: 80vh;
 	}
+	.blog-grow-1 {
+		margin-top: 100px;
+	}
 	.blog-grow-1,.blog-grow-2, .blog-grow-3 {
 		/*display: inline-block;*/
 	        margin: 0 0 0 20px;
