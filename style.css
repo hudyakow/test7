@@ -639,7 +639,7 @@ input {
 		margin-top: -50px;
 	}
 	.Sphere {
-		display: none;
+		margin: 200px 0 0 0;
 	}
 	.me-paragraph {
 		margin: 30px 0 0 190px;  
@@ -693,6 +693,11 @@ input {
 	.contact-me-2 {
 		margin: 30px 0 0 50px;
 	}
-	
+	.back-5 {
+		height: 70vh;
+	}
+	.back-4 {
+		height:120vh;
+	}
 }
 
