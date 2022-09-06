@@ -655,10 +655,13 @@ input {
 	.blog-grow-1 {
 	        margin: 0 0 0 20px;
 	}
-	.blog1, .blog2, .blog3 {
+	.blog1, .blog2 {
 		/*width: 400px;*/
 		flex-grow: 2;
-		height: 250px;
+		height: 200px;
+	}
+	.blog3 {
+		height: 200px;
 	}
 	
 }
