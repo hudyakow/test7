@@ -636,14 +636,14 @@ input {
 		font-size: 35px;
 	}
 	.me {
-		margin: -50px 0 0 30px;
+		margin: -50px 0 0 50px;
 	}
 	.Sphere {
 		margin: -500px 0 0 0;
 		radius: 500,
 	}
 	.me-paragraph {
-		margin: 30px 0 0 190px;  
+		margin: 30px 0 0 30px;  
 	}
 	.back-5 {
 		height: 80vh;
