@@ -667,7 +667,9 @@ input {
 		height: 250px;
 	}
 	.map {
-		margin-top: 30vh;
+		margin: 10vh 0 0 0;
+		width: 100vh;
+		height: 500px;
 	}
 	.subject {
 		width: 800px;
@@ -683,7 +685,7 @@ input {
 	}
 	.surname {
 		margin-left: 10px; 
-		width: 390px;
+		width: 370px;
 	}
 	.contact-me-1 {
 		margin: 100px 0 0 50px;
