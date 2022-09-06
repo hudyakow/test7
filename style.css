@@ -649,10 +649,12 @@ input {
 	        margin: 0 0 0 20px;
 	}
 	.blog-grow-1 {
-	        margin: 20px 0 0 20px;
+	        margin: 0 0 0 20px;
+		display: inline-block;
 	}
 	.blog1, .blog2, .blog3 {
 		width: 400px;
+		display: inline-block;
 	}
 	
 }
