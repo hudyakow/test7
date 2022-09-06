@@ -639,7 +639,7 @@ input {
 		margin-top: -50px;
 	}
 	.Sphere {
-		margin: -200px 0 0 0;
+		margin: 200px 0 0 0;
 	}
 	.me-paragraph {
 		margin: 30px 0 0 190px;  
@@ -694,10 +694,10 @@ input {
 		margin: 30px 0 0 50px;
 	}
 	.back-5 {
-		height: 40vh;
+		height: 70vh;
 	}
 	.back-4 {
-		height:120vh;
+		height:70vh;
 	}
 }
 
