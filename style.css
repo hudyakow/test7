@@ -678,10 +678,12 @@ input {
 		margin-left: 50px; 
 	}
 	.name {
-		margin-left: 50px; 
+		margin-left: 50px;
+		width: 400px;
 	}
 	.surname {
 		margin-left: 50px; 
+		width: 400px;
 	}
 	.contact-me-1 {
 		margin: 100px 0 0 50px;
