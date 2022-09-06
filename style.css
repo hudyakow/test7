@@ -639,5 +639,8 @@ input {
 	.me {
 		margin-top: -50px;
 	}
+	.Sphere {
+		display: none;
+	}
 }
 
