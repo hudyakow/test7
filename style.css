@@ -654,7 +654,7 @@ input {
 	}
 	.blog1, .blog2, .blog3 {
 		/*width: 400px;*/
-		flex: 2;
+		flex-grow: 2;
 		height: 300px;
 	}
 	
