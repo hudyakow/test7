@@ -363,7 +363,7 @@ li {
 
 .me {
 	font-size: 60px;
-	margin: 300px 0 400px 150px;
+	margin: 300px 0 400px 50px;
 	/*margin: 50px;*/
 	color: #fd2155;
 	font-family: 'Josefin Sans', sans-serif;
@@ -375,7 +375,7 @@ li {
 }
 .me-paragraph {
 	font-size: 25px;
-	margin: 380px 0 0 190px;                                          
+	margin: 380px 0 0 30px;                                          
 	/*margin: 50px;*/       
 	position: relative;
 	width: 600px;
