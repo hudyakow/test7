@@ -150,7 +150,41 @@
 				I currently work remotely with a selected freelance client base being open for new
 				opportunities <a class = "see-more">See more</a><br>
 			</div>
-				
+				<span class="Sphere"></span>
+		
+			<!-- Including the TagCloud.js script CDN in the document    -->
+			<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+			<script>
+				const Texts = [
+					'HTML', 'CSS', 'JAVASCRIPT',
+					'SWIFT', 'MONGOOSE', 'REACT',
+					'PYTHON', 'SASS',
+					'DJANGO', 'NODEJS', 'MONGODB',
+					'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'
+				];
+		
+				var tagCloud = TagCloud('.Sphere', Texts, {
+		
+					// Sphere radius in px
+					radius: 300,
+		
+					// animation speed
+					// slow, normal, fast
+					maxSpeed: 'normal',
+					initSpeed: 'slow',
+		
+					// Rolling direction [0 (top) , 90 (left),  (right-bottom)] 
+					direction: 135,
+		
+					// interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+					keep: true
+	
+				});
+		
+				// Giving color to each text in sphere
+				var color = '#fff';
+				document.querySelector('.Sphere').style.color = color;
+			</script>
 	</div>
 	<div class = "back-5">
 		<div class = "blog-grow-1">
